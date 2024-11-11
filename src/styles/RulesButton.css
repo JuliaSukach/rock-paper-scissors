@@ -1,0 +1,11 @@
+.rules-container {
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.rules-container > .rules-button {
+    background-color: transparent;
+    border: 1px solid;
+}
