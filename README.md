@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+Rock-Paper-Scissors Game
+==============================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Rock-Paper-Scissors game! This project is a fun and interactive game where you can play the classic game of Rock-Paper-Scissors against the computer.
 
-## Available Scripts
+Demo
 
-In the project directory, you can run:
+![rock-paper-scissors-demo](https://github.com/user-attachments/assets/442b8f0b-75c6-4abe-87b1-b8eee7948203)
 
-### `npm start`
+Features
+--------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Classic Rock-Paper-Scissors gameplay.
+- Dynamic and responsive UI.
+- Animation effects for selections.
+- Score tracking stored in local storage.
+- Play again
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies Used
+-----------------
 
-### `npm test`
+-   **React**: The main framework used for building the user interface.
+-   **CSS**: Styles are defined using CSS for the application's responsiveness and user-friendly appearance.
+-   **Testing Library**: Testing utilities for React applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Getting Started
+---------------
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   [Node.js](https://nodejs.org/) (v14 or higher recommended)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1.  Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```
+    git clone https://github.com/JuliaSukach/rock-paper-scissors.git
+    cd rock-paper-scissors
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.  Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running the Application
 
-## Learn More
+1.  Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2.  Open your browser and navigate to:
 
-### Code Splitting
+    ```
+    http://localhost:3000
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Running Tests
 
-### Analyzing the Bundle Size
+The application includes unit tests to ensure robustness.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1.  Execute tests:
 
-### Making a Progressive Web App
+    ```
+    npm test
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    -   The tests are written using [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/).
 
-### Advanced Configuration
+    -   Coverage includes unit tests for the Home page, search functionality, pagination, and error handling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* * * * *
